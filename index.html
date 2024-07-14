@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | FAQ accordion</title>
+
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="title"><img src="assets/images/icon-star.svg" alt=""> FAQs</h1>
+ 
+    <ul class="accordion">
+      <li>
+        <button aria-expanded="false" aria-controls="accordion__item--1" id="accordion__item--1" class="accordion__question">What is Frontend Mentor, and how will it help me? <img src="assets/images/icon-plus.svg" class="accordion__icon" alt=""></img></button>
+        <p role="region" aria-labelledby="accordion__item--1" id="accordion__item--1" class="accordion__answer">Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building.</p>
+      </li>
+      <li>
+        <button aria-expanded="false" aria-controls="accordion__item--2" id="accordion__item--2" class="accordion__question">Is Frontend Mentor free? <img src="assets/images/icon-plus.svg" class="accordion__icon" alt=""></img></button>
+        <p role="region" aria-labelledby="accordion__item--2" id="accordion__item--2" class="accordion__answer">Yes, Frontend Mentor offers both free and premium coding challenges, with the free option providing access to a range of projects suitable for all skill levels.</p>
+      </li>
+      <li>
+        <button aria-expanded="false" aria-controls="accordion__item--3" id="accordion__item--3" class="accordion__question">Can I use Frontend Mentor projects in my portfolio? <img src="assets/images/icon-plus.svg" class="accordion__icon" alt=""></img></button>
+        <p role="region" aria-labelledby="accordion__item--3" id="accordion__item--3" class="accordion__answer">Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent way to showcase your skills to potential employers!</p>
+      </li>
+      <li>
+        <button aria-expanded="false" aria-controls="accordion__item--4" id="accordion__item--4" class="accordion__question">How can I get help if I'm stuck on a Frontend Mentor challenge? <img src="assets/images/icon-plus.svg" class="accordion__icon" alt=""></img></button>
+        <p role="region" aria-labelledby="accordion__item--4" id="accordion__item--4" class="accordion__answer">The best place to get help is inside Frontend Mentor's Discord community. There's a help channel where you can ask questions and seek support from other community members.</p>
+      </li>
+    </ul>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/usigna">Usigna</a>.
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
